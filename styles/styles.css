@@ -255,3 +255,23 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+@media (width >= 900px) {
+ .insurance-links .columns > div {
+      align-items: start;
+  }
+}
+.insurance-links a.button {
+  color: #008c80;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+.insurance-links .default-content-wrapper{
+  text-align: center;
+}
+.insurance-links h2{
+  font-size: var(--heading-font-size-l);
+}
+.insurance-links p{
+  margin: 0;
+}
