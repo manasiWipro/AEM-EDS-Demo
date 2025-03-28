@@ -275,3 +275,21 @@ main .section.highlight {
  .insurance-links p{
    margin: 0;
  }
+ @media (width >= 900px) {
+  .highlight-div .columns {
+      background:#f2f2ee;
+  }
+}
+.hero.block p {
+  max-width: 462px;
+  background: #fff;
+  padding: 20px;
+  color: #000;
+}
+.hero.block h1{
+  color: #004346;
+  margin: 0;
+}
+.hero.block p > p{
+  padding: 0;
+}
